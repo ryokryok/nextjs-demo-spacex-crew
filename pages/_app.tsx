@@ -1,8 +1,10 @@
-import type { ReactElement, ReactNode } from 'react'
+import { ReactElement, createElement } from 'react'
 import type { AppProps } from 'next/app'
 import Link from 'next/link'
+import { setup } from 'goober'
 
 function MyApp({ Component, pageProps }: AppProps) {
+  setup(createElement)
   return (
     <Layout>
       <Component {...pageProps} />
