@@ -14,8 +14,7 @@ When you deploy this repo to another service, you should check this article.
 
 [https://vercel.com/docs/concepts/next.js/image-optimization](https://vercel.com/docs/concepts/next.js/image-optimization)
 
-or, replace `<Image>` of `next/image`  to `<img>` tag, and disable eslint rule. 
-
+or, replace `<Image>` of `next/image`  to `<img>` tag, and disable eslint rule.
 
 `.eslintrc.json`
 
