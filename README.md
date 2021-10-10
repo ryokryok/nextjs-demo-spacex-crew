@@ -6,6 +6,25 @@ This is study and demo site with [Next.js](https://nextjs.org/).
 
 If you want to create static site with Next.js + TypeScript, this repo will help you.
 
+### attention
+
+This site deploy to [Vercel](https://vercel.com/home).
+
+When you deploy this repo to another service, you should check this article.
+
+[https://vercel.com/docs/concepts/next.js/image-optimization](https://vercel.com/docs/concepts/next.js/image-optimization)
+
+or, replace `<Image>` of `next/image`  to `<img>` tag, and disable eslint rule. 
+
+
+`.eslintrc.json`
+
+```json
+"rules": {
+  "@next/next/no-img-element": "off"
+}
+```
+
 ## CLI
 
 ```bash
