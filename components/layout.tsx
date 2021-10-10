@@ -104,7 +104,13 @@ function LaunchCard({ launch }: { launch: LaunchType }) {
   return (
     <ProfileWrapper>
       {launch.links.patch.small ? (
-        <Image src={launch.links.patch.small} alt={launch.name} width={150} height={150} />
+        <Image
+          src={launch.links.patch.small}
+          alt={launch.name}
+          width={150}
+          height={150}
+          objectFit={'contain'}
+        />
       ) : (
         <></>
       )}

@@ -69,18 +69,17 @@ export const ProfileWrapper = styled('article')`
   padding: 1em;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
   @media screen and (max-width: 50em) {
     flex-direction: column;
+    padding: 1em 0em;
   }
 `
 
 export const ProfileImage = styled('div')`
-  width: 30em;
+  max-width: 50em;
   flex: 1;
-
   @media screen and (max-width: 50em) {
-    width: 100%;
+    max-width: 100%;
   }
 `
 
@@ -89,6 +88,7 @@ export const ProfileContent = styled('div')`
   display: flex;
   flex: 1;
   flex-direction: column;
+  t
 `
 
 export const ProfileTitle = styled('h1')`
@@ -117,4 +117,5 @@ export const ProfileLine = styled('hr')`
   border: 2px solid #eeeeee;
   margin: 0.5em 0;
   padding: 0em;
+  width: 100%;
 `
