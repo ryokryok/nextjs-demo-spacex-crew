@@ -41,7 +41,7 @@ export const GalleryItem = styled('div')``
 
 export const SiteLogo = styled('a')`
   font-size: 2em;
-  font-weight: bold;
+  font-weight: 200;
   font-family: monospace, sans-serif;
   &:any-link {
     color: #eeeeee;
