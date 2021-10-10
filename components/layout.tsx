@@ -21,6 +21,9 @@ import {
   ProfileTitle,
   ProfileWrapper,
   SiteLogo,
+  Footer,
+  FooterText,
+  FooterLink,
 } from './style'
 
 export function CommonLayout({ children }: { children: ReactElement[] }) {
@@ -32,7 +35,21 @@ export function CommonLayout({ children }: { children: ReactElement[] }) {
         </Link>
       </Header>
       <Container>{children}</Container>
+      <CreditFooter />
     </>
+  )
+}
+
+function CreditFooter() {
+  return (
+    <Footer>
+      <FooterText>
+        Made by <FooterLink href='https://github.com/ryokryok'>Mr_ozin</FooterLink>
+      </FooterText>
+      <FooterText>
+        Powered by <FooterLink href='https://github.com/r-spacex/SpaceX-API'>r/SpaceX</FooterLink>
+      </FooterText>
+    </Footer>
   )
 }
 

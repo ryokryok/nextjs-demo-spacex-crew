@@ -10,6 +10,19 @@ export const Container = styled('main')`
   max-width: 60em;
 `
 
+export const Footer = styled('footer')`
+  padding: 2em;
+  text-align: center;
+`
+
+export const FooterText = styled('p')`
+  font-size: 1em;
+`
+
+export const FooterLink = styled('a')`
+  color: royalblue;
+`
+
 export const GalleryList = styled('div')`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -27,7 +40,9 @@ export const GalleryList = styled('div')`
 export const GalleryItem = styled('div')``
 
 export const SiteLogo = styled('a')`
-  font-size: 1.5em;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: monospace, sans-serif;
   &:any-link {
     color: #eeeeee;
     text-decoration: none;
@@ -36,6 +51,7 @@ export const SiteLogo = styled('a')`
 
 export const Header = styled('header')`
   padding: 1em;
+  text-align: center;
 `
 
 export const Avatar = styled('figure')`
