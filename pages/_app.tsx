@@ -24,6 +24,7 @@ const GlobalStyles = createGlobalStyles`
   html  {
     background-color: #111111;
     color:  #eeeeee;
+    font-family: sans-serif;
   }
 `
 
