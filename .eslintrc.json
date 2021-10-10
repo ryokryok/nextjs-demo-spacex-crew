@@ -1,6 +1,9 @@
 {
   "extends": "next/core-web-vitals",
   "rules": {
-        "@next/next/no-img-element": "off"
+        // if you deploy this as static site with `next export`,
+        // you cannot `next/image` component. maybe, you use `<img>` tag.
+        // when you use `<img>` tag, disable this rule.
+        // "@next/next/no-img-element": "off"
   }
 }
