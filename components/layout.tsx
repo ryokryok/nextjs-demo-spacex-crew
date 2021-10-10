@@ -113,7 +113,7 @@ function LaunchCard({ launch }: { launch: LaunchType }) {
         <ProfileSubText>{dayjs(launch.date_utc).format('YYYY-MM-DD')}</ProfileSubText>
         <ProfileSubText>
           {launch.links.webcast ? (
-            <ProfileLink href={launch.links.webcast}>watch Youtube live</ProfileLink>
+            <ProfileLink href={launch.links.webcast}>Watch Youtube live</ProfileLink>
           ) : (
             <></>
           )}

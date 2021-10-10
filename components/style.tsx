@@ -70,7 +70,7 @@ export const ProfileWrapper = styled('article')`
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 50em) {
     flex-direction: column;
   }
 `
@@ -79,7 +79,7 @@ export const ProfileImage = styled('div')`
   width: 30em;
   flex: 1;
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 50em) {
     width: 100%;
   }
 `
@@ -87,7 +87,7 @@ export const ProfileImage = styled('div')`
 export const ProfileContent = styled('div')`
   padding: 1em;
   display: flex;
-  flex: ;
+  flex: 1;
   flex-direction: column;
 `
 
@@ -97,10 +97,12 @@ export const ProfileTitle = styled('h1')`
 
 export const ProfileText = styled('p')`
   font-size: 1.5em;
+  padding: 0.25em 0;
 `
 
 export const ProfileSubText = styled('p')`
   font-size: 1em;
+  padding: 0.25em 0;
 `
 
 export const ProfileLink = styled('a')`
