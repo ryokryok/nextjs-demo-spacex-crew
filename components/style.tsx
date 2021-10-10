@@ -61,6 +61,8 @@ export const ProfileWrapper = styled('article')`
 
 export const ProfileImage = styled('div')`
   width: 30em;
+  flex: 1;
+
   @media screen and (max-width: 40em) {
     width: 100%;
   }
@@ -69,6 +71,7 @@ export const ProfileImage = styled('div')`
 export const ProfileContent = styled('div')`
   padding: 1em;
   display: flex;
+  flex: ;
   flex-direction: column;
 `
 
@@ -90,4 +93,10 @@ export const ProfileLink = styled('a')`
   &:visited {
     color: plum;
   }
+`
+
+export const ProfileLine = styled('hr')`
+  border: 2px solid #eeeeee;
+  margin: 0.5em 0;
+  padding: 0em;
 `
