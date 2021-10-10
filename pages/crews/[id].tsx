@@ -11,7 +11,7 @@ const Crew: NextPage<PageProps> = ({ crew, launches }) => {
       <Head>
         <title>Space X Crew | {crew.name}</title>
         <meta name='description' content={`SpaceX Crew, about ${crew.name}`} />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/favicon.svg' />
       </Head>
       <CrewProfile crew={crew} launches={launches} />
     </div>
